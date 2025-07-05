@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Toko Rakha</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+      text-align: center;
+    }
+
+    header {
+      background-color: #4caf50;
+      color: white;
+      padding: 20px 0;
+    }
+
+    .produk {
+      background: white;
+      max-width: 400px;
+      margin: 40px auto;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+
+    img {
+      width: 100%;
+      border-radius: 10px;
+    }
+
+    h2 {
+      margin-top: 10px;
+      color: #333;
+    }
+
+    .harga {
+      color: #e91e63;
+      font-size: 20px;
+      font-weight: bold;
+    }
+
+    .pesan {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 10px 20px;
+      background: #4caf50;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+    }
+
+    footer {
+      margin-top: 50px;
+      padding: 20px;
+      font-size: 14px;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Toko Rakha</h1>
+    <p>Jualan Online Harga Ramah Dompet</p>
+  </header>
+
+  <div class="produk">
+    <img src="https://via.placeholder.com/400x250.png?text=Gambar+Produk" alt="Produk">
+    <h2>Kaos Polos Premium</h2>
+    <p class="harga">Rp 45.000</p>
+    <a class="pesan" href="https://wa.me/6281234567890" target="_blank">Pesan Sekarang</a>
+  </div>
+
+  <footer>
+    &copy; 2025 Toko Rakha. Hubungi kami di Instagram @rakhashop
+  </footer>
+
+</body>
+</html>
